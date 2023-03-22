@@ -36,21 +36,6 @@ body {
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
-/* Container for flexboxes */
-.row {
-  display: -webkit-flex;
-  display: flex;
-}
-
-/* Create three equal columns that sits next to each other */
-.column {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
 /* Style the footer */
 .footer {
   background-color: #f1f1f1;
@@ -90,6 +75,5 @@ body {
 
 </body>
 </html>
-
 
 
