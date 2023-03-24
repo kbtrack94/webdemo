@@ -1,19 +1,32 @@
-/* This is a CSS comment */
-img {
-  width: 100%;
+/* Set the font for the whole page */
+body {
+  font-family: Arial, sans-serif;
 }
 
-.w3-container {
-  background-color: green;
-  color: red;
-}
-
+/* Style the title */
 h1 {
-  font-size: 8em;
-  font-weight: bold;
+  color: red;
+  font-family: Impact, sans-serif;
+  font-size: 12pt;
 }
 
-p {
-  font-size: 6em;
+/* Create three vertical responsive containers */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the content within the containers */
+.container p {
+  font-size: 16pt;
   line-height: 1.5;
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #f2f2f2;
 }
