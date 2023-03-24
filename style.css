@@ -1,5 +1,6 @@
 /* Set the font for the whole page */
 body {
+  background-color: lightblue;
   font-family: Arial, sans-serif;
 }
 
@@ -7,7 +8,7 @@ body {
 h1 {
   color: red;
   font-family: Impact, sans-serif;
-  font-size: 12pt;
+  font-size: 64pt;
 }
 
 /* Style the headers */
