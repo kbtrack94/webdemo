@@ -4,16 +4,16 @@ img {
 }
 
 .w3-container {
-  background-color: black;
-  color: white;
+  background-color: green;
+  color: red;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 8em;
   font-weight: bold;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 6em;
   line-height: 1.5;
 }
