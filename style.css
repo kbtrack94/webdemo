@@ -10,6 +10,19 @@ h1 {
   font-size: 12pt;
 }
 
+/* Style the headers */
+h2 {
+  font-size: 18pt;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+h3 {
+  font-size: 14pt;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
 /* Create three vertical responsive containers */
 .container {
   display: flex;
@@ -29,4 +42,41 @@ h1 {
   border: 1px solid black;
   border-radius: 10px;
   background-color: #f2f2f2;
+}
+
+/* Style the tables */
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Add content to the containers */
+.container1 h2 {
+  margin-top: 0;
+}
+
+.container1 table tr td {
+  font-weight: bold;
+}
+
+.container2 h2 {
+  color: #0099cc;
+}
+
+.container3 h2 {
+  color: #ff6600;
+}
+
+.container1 table, .container2 table, .container3 table {
+  width: 80%;
+  margin: 0 auto;
 }
