@@ -59,7 +59,7 @@ th, td {
 }
 
 th {
-  background-color: red;
+  background-color: green;
 }
 
 /* Add content to the containers */
@@ -72,11 +72,11 @@ th {
 }
 
 .container2 h2 {
-  color: blue;
+  color: green;
 }
 
 .container3 h2 {
-  color: blue;
+  color: green;
 }
 
 .container1 table, .container2 table, .container3 table {
