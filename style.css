@@ -1,8 +1,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-/* Set the font for the whole page */
+/* Set the color for the whole page */
 body {
-  background-color: red;
+  background-color: gray
 }
 
 /* Style the title */
@@ -46,7 +46,7 @@ h3 {
   padding: 20px;
   border: 1px solid black;
   border-radius: 10px;
-  background-color: #f2f2f2;
+  background-color: green;
 }
 
 /* Style the tables */
