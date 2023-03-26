@@ -1,83 +1,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-/* Set the color for the whole page */
 body {
-  background-color: #f2f2f2
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
 }
 
-/* Style the title */
 h1 {
-  color: white;
-  font-family: Papyrus, Fantasy;
-  font-size: 64pt;
+  color: #555;
   text-align: center;
 }
 
-/* Style the headers */
-h2 {
-  color: red;
-  font-size: 18pt;
-  font-weight: bold;
-  margin-top: 50px;
-}
-
-h3 {
-  color: blue;
-  font-size: 14pt;
-  font-weight: bold;
-  margin-top: 20px;
-}
-
-/* Create two vertical responsive containers */
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-/* Style the content within the containers */
-.container p {
-  font-size: 16pt;
+p {
+  font-size: 18px;
   line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
   margin: 0;
-  text-align: center;
-  padding: 20px;
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color: green;
 }
 
-/* Style the tables */
-table {
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-
-th, td {
-  border: 1px solid black;
+li {
+  border-bottom: 1px solid #ccc;
   padding: 10px;
-}
-
-th {
-  background-color: green;
-}
-
-/* Add content to the containers */
-.container1 h2 {
-  margin-top: 0;
-}
-
-.container1 table tr td {
-  font-weight: bold;
-}
-
-.container2 h2 {
-  color: green;
-}
-
-.container1 table, .container2 table {
-  width: 80%;
-  margin: 0 auto;
 }
