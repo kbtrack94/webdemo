@@ -2,7 +2,7 @@
 
 /* Set the font for the whole page */
 body {
-  background-color: green;
+  background-color: gray;
   font-family: Copperplate, Fantasy;
 }
 
@@ -16,12 +16,14 @@ h1 {
 
 /* Style the headers */
 h2 {
+  color: red;
   font-size: 18pt;
   font-weight: bold;
   margin-top: 50px;
 }
 
 h3 {
+  color: blue;
   font-size: 14pt;
   font-weight: bold;
   margin-top: 20px;
