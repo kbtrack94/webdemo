@@ -35,7 +35,7 @@ ul {
 }
 
 li {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid green;
   padding: 10px;
 }
 
@@ -43,12 +43,14 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: Copperplate, Fantasy;
 }
 
 .item {
   flex: 1;
   height: 50px;
   margin: 10px;
-  background-color: #ccc;
+  background-color: green;
+  font-family: Copperplate, Fantasy;
 }
 
