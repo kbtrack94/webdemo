@@ -22,15 +22,33 @@ h2 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  font-family: Copperplate, Fantasy;
+  color: green
 }
 
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  font-family: Copperplate, Fantasy;
+  color: green;
 }
 
 li {
   border-bottom: 1px solid #ccc;
   padding: 10px;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+  height: 50px;
+  margin: 10px;
+  background-color: #ccc;
+}
+
