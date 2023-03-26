@@ -3,14 +3,15 @@
 /* Set the font for the whole page */
 body {
   background-color: green;
-  font-family: Impact, sans-serif;
+  font-family: Copperplate, Fantasy;
 }
 
 /* Style the title */
 h1 {
   color: white;
-  font-family: Impact, sans-serif;
+  font-family: Papyrus, Fantasy;
   font-size: 64pt;
+  text-align: center;
 }
 
 /* Style the headers */
@@ -26,7 +27,7 @@ h3 {
   margin-top: 20px;
 }
 
-/* Create three vertical responsive containers */
+/* Create two vertical responsive containers */
 .container {
   display: flex;
   flex-direction: column;
@@ -75,11 +76,7 @@ th {
   color: green;
 }
 
-.container3 h2 {
-  color: green;
-}
-
-.container1 table, .container2 table, .container3 table {
+.container1 table, .container2 table {
   width: 80%;
   margin: 0 auto;
 }
