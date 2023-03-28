@@ -39,13 +39,15 @@ label {
 }
 
 input[type="text"] {
+  width: 100%;
+  padding: 10px;
   max-width: 400px;
   padding: 20px;
   border: none;
   border-radius: 5px;
   margin-bottom: 20px;
-  box-sizing: border-box;
 }
+
 
 input[type="submit"] {
   background-color: #4CAF50;
