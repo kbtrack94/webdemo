@@ -1,17 +1,17 @@
 body {
-  background-color: lightgray;
+  background-color: gray;
   font-family: Copperplate, Fantasy;
 }
 
 h1 {
-  color: green;
+  color: white;
   text-align: center;
   font-size: 64px;
   font-family: Copperplate, Fantasy;
 }
 
 h2 {
-  color: blue;
+  color: black;
   text-align: center;
   font-size: 32px;
   font-family: Copperplate, Fantasy;
@@ -39,8 +39,8 @@ label {
 }
 
 input[type="text"] {
-  width: 100%;
-  padding: 10px;
+  max-width: 400px;
+  padding: 20px;
   border: none;
   border-radius: 5px;
   margin-bottom: 20px;
