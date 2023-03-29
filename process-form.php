@@ -1,18 +1,11 @@
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $name = $_POST["name"];
-  $email = $_POST["email"];
-  $message = $_POST["message"];
+$name = $_POST["name"];
+$email = $_POST["email"];
+$message = $_POST["message"];
 
-  // Process and store the form data here, such as inserting it into a database or sending it via email.
+$file = fopen("data.csv", "a");
 
-  // Open the CSV file for writing
-  $file = fopen("data.csv", "a");
+$data = array($name, $email, $message);
+fputcsv($file, $data);
 
-  // Write the form data to the file
-  fputcsv($file, array($name, $email, $message));
+fclose($file);
 
-  // Close the file
-  fclose($file);
-}
-?>
