@@ -1,6 +1,6 @@
 body {
-  background-color: gray;
-  font-family: Copperplate, Fantasy;
+  background-color: darkgray;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h2 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  font-family: Copperplate, Fantasy;
+  font-family: "Times New Roman", Times, serif;
   color: darkgray
 }
 
@@ -28,7 +28,7 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-family: Copperplate, Fantasy;
+  font-family: "Times New Roman", Times, serif;
   color: black
 }
 
@@ -45,13 +45,13 @@ ul ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: Copperplate, Fantasy;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .item {
   flex: 1;
   height: 50px;
   margin: 10px;
-  font-family: Copperplate, Fantasy;
+  font-family: "Times New Roman", Times, serif;
 }
 
