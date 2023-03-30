@@ -19,12 +19,12 @@ h2 {
 h4 {
   color: black;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Times New Roman", Times, serif;
 }
 p {
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 12px;
+  line-height: 1;
   font-family: "Times New Roman", Times, serif;
   color: black
 }
