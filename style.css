@@ -1,8 +1,9 @@
 body {
-  background-color: darkgray;
+  background-color: lightslategray;
   font-family: "Times New Roman", Times, serif;
 }
 
+/* Name */
 h1 {
   color: white;
   text-align: center;
@@ -10,25 +11,31 @@ h1 {
   font-family: Copperplate, Fantasy;
 }
 
+/* Phone and Email */
 h2 {
   color: black;
   text-align: center;
   font-size: 32px;
   font-family: Copperplate, Fantasy;
 }
-h4 {
+
+/* Section Headers : Certifications/Skills, Professional Experience, Education */
+h3 {
   color: black;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Times New Roman", Times, serif;
 }
+
+/* All regular body text */
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   font-family: "Times New Roman", Times, serif;
   color: black
 }
 
+/* Unordered Lists */
 ul {
   list-style: none;
   padding: 0;
@@ -37,15 +44,18 @@ ul {
   color: black
 }
 
+/* Job Title and Location */
 li {
   padding: 0;
   margin-bottom: 0;
 }
 
+/* Sub-Unordered List */
 ul ul {
   margin-left: 20px;
 }
 
+/* Flexbox Container */
 .container {
   display: flex;
   justify-content: space-between;
@@ -53,6 +63,7 @@ ul ul {
   font-family: "Times New Roman", Times, serif;
 }
 
+/* Columns in Container */
 .item {
   flex: 1;
   height: 50px;
@@ -60,3 +71,22 @@ ul ul {
   font-family: "Times New Roman", Times, serif;
 }
 
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
