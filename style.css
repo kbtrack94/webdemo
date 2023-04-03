@@ -36,6 +36,7 @@ p {
 
 /* Unordered Lists */
 ul {
+  list-style: square;
   padding: 0;
   margin: 0;
   font-family: "Times New Roman", Times, serif;
@@ -44,12 +45,14 @@ ul {
 
 /* Job Title and Location */
 li {
+  list-style: square;
   padding: 0;
   margin-bottom: 0;
 }
 
 /* Sub-Unordered List */
 ul ul {
+  list-style: square;
   margin-left: 20px;
 }
 
