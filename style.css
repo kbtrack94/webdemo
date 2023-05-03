@@ -114,6 +114,113 @@ button:hover {
   margin-top: 3rem;
 }
 
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr,4);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container,
+.container-lg,
+.container-small {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1150px;
+  padding: 0 25px;
+}
+
+.container-lg {
+  max-width: 3000px;
+}
+
+.container-small {
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+.image-container {
+  display: block;
+  height: 500px;
+  position: relative;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.image-container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(27deg, #FFC593 0%, #BC7198 49%, #5A77FF 95%);
+  opacity: 0;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+.image-container:hover {
+  -webkit-transform: translateY(-25px);
+          transform: translateY(-25px);
+}
+
+.image-container:hover::after {
+  opacity: 1;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 35px 0;
+}
+
+.image-box {
+  color: #ffffff;
+  width: 80%;
+  max-width: 100%;
+}
+
+.image-box p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.image-textbox {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 10px 5px 18px;
+}
+
+.image-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 18px 5px 5px;
+}
+
+.image-link h6 {
+  text-transform: uppercase;
+  font-family: "DM Sans Bold", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 800px) {
@@ -128,4 +235,4 @@ button:hover {
     align-self: start;
     margin: 1rem 0px;
   }
-}
+};
