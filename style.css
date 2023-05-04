@@ -114,6 +114,14 @@ button:hover {
   margin-top: 3rem;
 }
 
+ul {
+  list-style-type: disc; /* type of bullet point */
+  margin-left: 20px; /* left margin for the list */
+}
+
+li {
+  margin: 10px 0; /* top and bottom margin for each list item */
+}
 
 .grid {
   display: -ms-grid;
